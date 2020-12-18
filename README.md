@@ -4,8 +4,9 @@ I built this tiny REST-like API while playing around with Deno. Notice how it's 
 
 ## Endpoints
 
-- /employees --> Returns an array of employees
-- /employee/:id --> Returns a single employee
+- GET /employees --> Get all employees
+- GET /employee/:id --> Get a single employee
+- POST /employees --> Create a new employee
 
 ## Setup
 
